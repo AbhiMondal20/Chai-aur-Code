@@ -37,6 +37,7 @@ const removeValue = () => {
       <button onClick={removeValue} id='remove_value'>Remove Value {counter}</button>
       <br/>
       <p>Footer { counter }</p>
+      
     </>
   )
 }
