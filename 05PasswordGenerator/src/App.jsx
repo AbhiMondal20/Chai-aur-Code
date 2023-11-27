@@ -22,7 +22,7 @@ function App() {
 
   // Copy to Clipboard
   const copyPasswordToClipboard = useCallback(() => {
-    passwordRef.current.select();
+    passwordRef.current.select();0
     passwordRef.current.setSelectionRange(0, password.length); // Select the entire password
     document.execCommand('copy');
   }, [password]);
